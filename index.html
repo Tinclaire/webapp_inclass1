@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Task Manager</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="app-header">
+    <h1>My Task Manager</h1>
+  </header>
+
+  <main class="app-main">
+
+    <section class="task-input-section" aria-labelledby="add-task-heading">
+      <h2 id="add-task-heading">新增任務</h2>
+      <label for="task-input">任務名稱：</label>
+      <input type="text" id="task-input" placeholder="輸入任務名稱..." />
+      <button id="add-task-btn" type="button">新增</button>
+      <!-- 空白任務的提示訊息，內容由 script.js 動態填入 -->
+      <p id="input-hint" class="hint" aria-live="polite"></p>
+    </section>
+
+    <section class="filter-section" aria-labelledby="filter-heading">
+      <h2 id="filter-heading">篩選</h2>
+      <button type="button" class="filter-btn" data-filter="all">全部</button>
+      <button type="button" class="filter-btn" data-filter="active">未完成</button>
+      <button type="button" class="filter-btn" data-filter="completed">已完成</button>
+    </section>
+
+    <section class="task-list-section" aria-labelledby="list-heading">
+      <h2 id="list-heading">任務清單</h2>
+      <ul id="task-list">
+        <!-- 每個任務的 <li> 由 script.js 動態產生，這裡先留空 -->
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="app-footer">
+    <p id="task-stats">共 0 項　未完成 0 項　已完成 0 項</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
