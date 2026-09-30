@@ -1,5 +1,8 @@
 # Web APP 課堂實作 1
 ## R14725010 王亭宇
+## Web APP 連結
+- JS 版: [https://tinclaire.github.io/webapp_inclass1/](https://tinclaire.github.io/webapp_inclass1/)
+- React 版: [https://tinclaire.github.io/webapp_inclass1/react_demo](https://tinclaire.github.io/webapp_inclass1/react_demo)
 ### Checkpoint 1-1: 基本結構
 <img width="1512" height="982" alt="Screenshot 2026-09-30 at 5 50 55 PM" src="https://github.com/user-attachments/assets/fee86970-6b1c-4343-8432-f0e0f15bb79e" />
 
